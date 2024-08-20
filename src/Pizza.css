@@ -1,0 +1,45 @@
+#full-body{
+    background-color: rgb(250, 236, 226);
+}
+#title-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#title-card{
+    font-size: 50px;
+    color: rgb(240, 154, 17);
+}
+#menu-card{
+    border-top:solid 2px black;
+    border-bottom:solid 2px black;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pizza-container{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 50px;
+    justify-content: center;
+}
+#pizza-inner-container{
+    display: flex;
+    gap: 20px;
+}
+#pizza-inner-container img{
+    width: 150px;
+    height: 150px;
+}
+#pizza-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+#pizza-quantity{
+    font-size: 18px;
+    font-weight: 500;
+}
